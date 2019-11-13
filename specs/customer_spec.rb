@@ -7,7 +7,7 @@ require_relative('../pub.rb')
 class TestPub < MiniTest::Test
 
   def setup
-    @customer = Customer.new("Rab",39,14.30)
+    @customer = Customer.new("Rab",39,14.30, 0)
     @beer = Drink.new("Beer", 2.99, 1)
     @wine = Drink.new("Wine", 3.49, 2)
     @whisky = Drink.new("Whisky", 4.99, 3)
